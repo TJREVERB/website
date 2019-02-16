@@ -6,22 +6,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/">Overview</a>
+                <a class="nav-link" href="index.php">Overview</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/objectives.php">Objectives</a>
+                <a class="nav-link" href="objectives.php">Objectives</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/subsystems.php">Subsystems</a>
+                <a class="nav-link" href="subsystems.php">Subsystems</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/about.php">About Us</a>
+                <a class="nav-link" href="about.php">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/media.php">Media</a>
+                <a class="nav-link" href="media.php">Media</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/updates.php">Updates</a>
+                <a class="nav-link" href="updates.php">Updates</a>
             </li>
             </ul>
         </div>
