@@ -101,7 +101,7 @@
                 <h1>CAD</h1>
                 <p>
                     The CAD/Structural subsystem will be focused more on creation of the 3U chassis (google “3U chassis cubesat” for
-                    more insight). For the 2U, we will be using AutoDesk Fusion and OnShape create a computer aided design. As we
+                    more insight). For the 2U, we will be using AutoDesk Fusion 360 and OnShape to create a computer aided design. As we
                     have recieved most of our parts, we have created computer models to simulate the components and how they will
                     fit together.
                 </p>
