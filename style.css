@@ -1,6 +1,7 @@
 /* GENERAL */
-html,body {
-    height:100%;
+html,
+body {
+    height: 100%;
     width: 100%;
 }
 html {
@@ -8,9 +9,10 @@ html {
 }
 body {
     display: table;
-    font-family: 'Gothic A1' !important;
+    font-family: "Gothic A1" !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
 }
-
 
 /* Index */
 #index-hero > div {
@@ -29,7 +31,8 @@ body {
     height: auto;
 }
 
-#index-hero-text p, #index-hero-text h2 {
+#index-hero-text p,
+#index-hero-text h2 {
     padding: 3px 5px;
     background-color: rgba(1, 5, 68, 0.7);
     border-radius: 1px;
@@ -46,12 +49,10 @@ body {
     height: 80px;
 }
 
-
 /* Subsystems */
 .subsystems-container img {
     max-height: 300px;
 }
-
 
 /* Media */
 .media-container img.img-fluid {
@@ -61,13 +62,12 @@ body {
 }
 
 .media-img-caption {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 3px 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px 20px;
 }
-
 
 /* About Us */
 .about-profile {
@@ -80,7 +80,6 @@ body {
     margin-bottom: 20px;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
-
 
 /* Footer */
 .footer-quote {
