@@ -58,7 +58,7 @@
 	<section class="index-container container py-4">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>What is a Cubesat?</h1>
+				<h1>What is a CubeSat?</h1>
 				<p>
 					In 1999, California Polytechnic Institute and Stanford University created the specifications for the CubeSat.
 					It was determined that the one unit of a CubeSat would be 10cm x 10cm x 11.35 cm and usually no larger than 1.33

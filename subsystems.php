@@ -19,7 +19,7 @@
                 <h1>Communciations</h1>
                 <p>
                     The Communications subsystem is primarily responsible for evaluating and handling the communications systems on the
-                    Cubesat. The 2U CubeSat (TJREVERB) is predicated on testing the communications systems onboard. On this CubeSat,
+                    CubeSat. The 2U CubeSat (TJREVERB) is predicated on testing the communications systems onboard. On this CubeSat,
                     we will be testing two types of radios: one simplex UHF radio and one duplex UHF/VHF radio. The subsystem is
                     responsible for pre-testing the radios as well.
                 </p>
@@ -82,7 +82,7 @@
                 <h1>Electronics</h1>
                 <p>
                     The electronics subsystem of the TJ REVERB cubesat team helps test and manage the power supply, solar panels,
-                    attitude control, and overall power distribution of the Cubesat. Many of the electrical components will be
+                    attitude control, and overall power distribution of the CubeSat. Many of the electrical components will be
                     donated to TJ from commercial partners. As such, a majority of the focus on the team will be connecting
                     components and making sure that the system works correctly in an integrated manner. This will be accomplished
                     through the development of a Helmholtz coil for testing attitude control, the construction of a clean room, and

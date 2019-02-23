@@ -54,7 +54,7 @@
             <div class="col-md-12">
                 <h2><a href="http://www.ragnarokindustries.com/working/" target="-blank">Ragnarok</a></h2>
                 <p>
-                    Ragnarok Industries brings a wealth of Cubesat building knowledge to the TJREVERB team. Primarily, Ragnarok
+                    Ragnarok Industries brings a wealth of CubeSat building knowledge to the TJREVERB team. Primarily, Ragnarok
                     aids TJREVERB by providing avionics, comprised of the flight computer and its interfaces with the various
                     radios, sensors, and other components on board the satellite. In addition, Ragnarok has mentored the team with
                     respect to the design of the satellite, and was represented at TJREVERB's Merit and Feasibility reviews.
@@ -213,9 +213,9 @@
             </div>
 
             <div class="about-profile col-md-4">
-                <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
-                <h4>Quentin Bishop</h4>
-                <p>ADCS - TJ '19</p>
+                <div class="about-profile-img"><img src="assets/img/about/ayush-rautwar.jpg" class="img-fluid"></div>
+                <h4>Ayush Rautwar</h4>
+                <p>ADCS - TJ '21</p>
             </div>
 
             <div class="about-profile col-md-4">
