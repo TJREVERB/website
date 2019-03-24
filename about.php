@@ -171,9 +171,15 @@
             </div>
 
             <div class="about-profile col-md-4">
+                <div id="miss" class="about-profile-img"><img src="assets/img/about/akash-bhave.jpg" class="img-fluid"></div>
+                <h4>Akash Bhave</h4>
+                <p>Website (Co-Leader) - TJ '21</p>
+            </div>
+
+            <div class="about-profile col-md-4">
                 <div id="miss" class="about-profile-img"><img src="assets/img/about/suchet-sapre.jpg" class="img-fluid"></div>
                 <h4>Suchet Sapre</h4>
-                <p>Website - TJ '20</p>
+                <p>Website (Co-Leader) - TJ '20</p>
             </div>
             
             <div class="about-profile col-md-4">
@@ -186,6 +192,12 @@
                 <div class="about-profile-img"><img src="assets/img/about/maguire-papay.png" class="img-fluid"></div>
                 <h4>Maguire Papay</h4>
                 <p>Communciations (Co-Leader) - TJ '19</p>
+            </div>
+    
+            <div class="about-profile col-md-4">
+                <div class="about-profile-img"><img src="assets/img/about/jacob-consalvi.jpg" class="img-fluid"></div>
+                <h4>Jacob Consalvi</h4>
+                <p>Communciations (Co-Leader) - TJ '21</p>
             </div>
 
             <div class="about-profile col-md-4">
