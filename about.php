@@ -168,7 +168,7 @@ $page_title = "TJ REVERB - About Us";
 
                     <div class="about-profile col-md-4">
                         <div id="miss" class="about-profile-img"><img src="assets/img/about/akash-bhave.jpg" class="img-fluid"></div>
-                        <h3>Ankit Khandelwal</h3>
+                        <h3>Akash Bhave</h3>
                         <h5>Website, Ground Station (Co-Leader)</h5>
                         <p class="font-weight-light">TJ '21</p>
                     </div>
