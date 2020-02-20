@@ -35,6 +35,16 @@ $page_title = "TJ REVERB - About Us";
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-6">
+                        <h2>Avian Technologies</h2>
+                        <img class="img-fluid mt-2 mb-4" width="300" src="assets/img/sponsors/avian.png" />
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Global Space Exchange, Inc.</h2>
+                        <img class="img-fluid mt-2 mb-4" width="350" src="assets/img/sponsors/global-space-exchange.png" />
+                    </div>
+                </div>
+                <div class="row mt-2">
                     <div class="col-md-12">
                         <h2><a href="http://www.emergentspace.com/" target="-blank">Emergent</a></h2>
                         <p>
@@ -49,7 +59,7 @@ $page_title = "TJ REVERB - About Us";
                         </p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-2">
                     <div class="col-md-12">
                         <h2><a href="http://www.ragnarokindustries.com/working/" target="-blank">Ragnarok</a></h2>
                         <p>
