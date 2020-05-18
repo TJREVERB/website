@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="We love space.">
+    <meta name="author" content="TJREVERB">
+
+	<meta property="og:site_name" content="" /> 
+	<meta property="og:site" content="" /> 
+	<meta property="og:title" content=""/> 
+	<meta property="og:description" content="" /> 
+	<meta property="og:image" content="images/header-background.jpg" /> 
+	<meta property="og:url" content="" /> 
+	<meta property="og:type" content="article" />
+
+    <title>TJREVERB</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body data-spy="scroll" data-target=".fixed-top" style = "background-color: black">
+    
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    
+
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#partners">PARTNERS</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav> 
+
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1>TJREVERB</h1>
+                            <p class="p-heading p-large">The high school satellite program.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id = "pages" class = "pages">
+    <div id="intro" class="intro">
+        <div class="container">
+            <div class="row">
+                    <div class="text-container">
+                        <div class="section-title">Mission Statement</div>
+                        <p>The TJ REVERB project is creating a best practice document for building a Nanosatellite while building a 2U CubeSat that compares multiple radio systems in Lower Earth Orbit. Additionally, TJ REVERB serves as an educational vehicle for teaching students the principles of systems engineering. Beyond the rich learning experience designing and constructing a satellite provides the students at Thomas Jefferson HSST, the team is committed to a robust local, national, and international outreach program.</p>
+                    </div>
+            </div>
+        </div> 
+    </div>
+
+	<div id="projects" class="filter">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">Gallery</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="button-group filters-button-group">
+                        <a class="button is-checked" data-filter="*"><span>Show All</span></a>
+                        <a id="dev" class="button" data-filter=".testing"><span>Testing</span></a>
+                        <a class="button" data-filter=".development"><span>Development</span></a>
+                        <a class="button" data-filter=".brand"><span>Brand</span></a>
+                    </div>
+                    <div class="grid">
+                        <div class="element-item testing development">
+                            <a class="popup-with-move-anim" href="#project-1"><div class="element-item-overlay"><span>Helmholtz Coil</span></div><img src="images/projs/helmholtz.png" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-2"><div class="element-item-overlay"><span>Simulation</span></div><img src="images/projs/simulation.png" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development">
+                            <a class="popup-with-move-anim" href="#project-3"><div class="element-item-overlay"><span>CAD Construction</span></div><img src="images/projs/cad.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item testing development">
+                            <a class="popup-with-move-anim" href="#project-4"><div class="element-item-overlay"><span>Completed Flatsat</span></div><img src="images/projs/flatsat.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development brand">
+                            <a class="popup-with-move-anim" href="#project-5"><div class="element-item-overlay"><span>Original REVERB</span></div><img src="images/projs/old_sat.jpeg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development testing">
+                            <a class="popup-with-move-anim" href="#project-6"><div class="element-item-overlay"><span>CAD Model</span></div><img src="images/projs/model.png" alt="alternative"></a>
+                        </div>
+                        <div class="element-item brand">
+                            <a class="popup-with-move-anim" href="#project-7"><div class="element-item-overlay"><span>Logo</span></div><img src="images/projs/logo.png" alt="alternative"></a>
+                        </div>
+                        <div class="element-item development testing">
+                            <a class="popup-with-move-anim" href="#project-8"><div class="element-item-overlay"><span>EPS</span></div><img src="images/projs/eps.jpg" alt="alternative"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+		</div>
+    </div>
+
+
+    <div id="project-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/helmholtz.png" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>Helmholtz Coil</h3>
+                <hr class="line-heading">
+                <h6>Testing & Development</h6>
+                <p>Shown is a set of 6 coils that produce a magnetic field that can replicate that of space. This is incredibly useful for testing equipment like magnetorquers. Students built this from scratch!</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="project-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/simulation.png" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>Simulation</h3>
+                <hr class="line-heading">
+                <h6>Development</h6>
+                <p>As part of our early development plan, we ran complex simulations on our satellite model to predict he orbital path and lifetime of TJREVERB.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+
+    <div id="project-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/cad.jpg" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>CAD Construction</h3>
+                <hr class="line-heading">
+                <h6>Development</h6>
+                <p>Starting without a kit, we had to design and model our satellite before we entered the later stages of development.</p>
+                <p>Our 3D printers let us bridge the gap between our virtual CAD models and a physical satellite.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="project-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/flatsat.jpg" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>Complete Flatsat</h3>
+                <hr class="line-heading">
+                <h6>Testing & Development</h6>
+                <p>A flatsat is a flat version of a satellite. All the boards are laid out as opposed to stacked.</p>
+                <p>This gives us the ability to develop and test smoothely, without having to worry about the chaos of stacked boards.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="project-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/old_sat.jpeg" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>Original REVERB</h3>
+                <hr class="line-heading">
+                <h6>Development & Brand</h6>
+                <p>Oh, how far we've come!</p>
+                <p>TJREVERB was originally intended to be a 1U satellite, but was upgraded to 2U.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="project-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/model.png" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>CAD Model</h3>
+                <hr class="line-heading">
+                <h6>Testing & Development</h6>
+                <p>Look at this beauty.</p>
+                <p>That's all.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="project-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/logo.png" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>Logo</h3>
+                <hr class="line-heading">
+                <h6>Brand</h6>
+                <p>It's like our original logo went through mitosis. </p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="project-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/projs/eps.jpg" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>EPS</h3>
+                <hr class="line-heading">
+                <h6>Testing & Development</h6>
+                <p>Here is a picture of the team getting hands-on with hardware.</p>
+                <p>The EPS is the heart of the system. It distributes power to all components of the satellite!</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div>
+        </div>
+    </div>
+
+    <div class="basic-2", id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Our team</h2>
+                    <p class="p-heading">We're only as strong and as knowledgeable as our team</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/kucko.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Kristen Kucko</p>
+                        <p class="job-title">Principal Investigator <br> klkucko@fcps.edu</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/ayush.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Ayush Rautwar</p>
+                        <p class="job-title">Project Manager</p>
+
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/ankit.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Ankit Khandelwal</p>
+                        <p class="job-title">Electronics Lead</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/anup.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Anup Bagali</p>
+                        <p class="job-title">Programming Lead</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/liam.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Liam West</p>
+                        <p class="job-title">CAD Lead</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/jacob.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Jacob Consalvi</p>
+                        <p class="job-title">Communications Lead</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/akash.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Akash Bhave</p>
+                        <p class="job-title">Groundstation Lead</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/soham.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Soham Gandhi</p>
+                        <p class="job-title">APRS Lead</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/shreepa.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Shreepa Parthaje</p>
+                        <p class="job-title">Flight Software Sub-Lead</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/jason.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Jason Chen</p>
+                        <p class="job-title">Flight Software Sub-Lead</p>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/srikar.jpg" alt="alternative">
+                        </div> 
+                        <p class="p-large">Srikar Gouru</p>
+                        <p class="job-title">Flight Software Sub-Lead</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+        <div class="basic-2", id = "partners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Our partners</h2>
+                        <p class="p-heading">We are grateful for our fantastic partners and the mentors they have given us</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+    
+                        
+                        <div class="team-member">
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="images/partners/avian.png" alt="alternative">
+                            </div> 
+                            <p class="p-large">Avian Technologies</p>
+    
+                        </div>
+    
+                        <div class="team-member">
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="images/partners/gse.svg" alt="alternative">
+                            </div> 
+                            <p class="p-large">Global Space Exchange, Inc.</p>
+    
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Our sponsors</h2>
+                        <p class="p-heading">Thank you for making this project possible</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+    
+                        
+                        <div class="team-member">
+                            <p class="p-heading" style="font-size:2rem; margin-bottom:1rem">Companies</p>
+                            <p class="p-large">BlueCube<br>ExoAnalytic<br>NAL Research<br>USSTEM</p>
+    
+                        </div>
+
+                        <div class="team-member">
+                            <p class="p-heading" style="font-size:2rem; margin-bottom:1rem">Apollo Level</p>
+                            <p class="p-large">Antonio Arancibia<br>Dana Cibulski<br>David Boyd<br>Mohammad Choudhry<br>Paul Jaffe<br>Pradeepa Jayakumar<br>The Trissell Family</p>
+    
+                        </div>
+
+                        <div class="team-member">
+                            <p class="p-heading" style="font-size:2rem; margin-bottom:1rem">Gemini Level</p>
+                            <p class="p-large">Jacob Cohen<br>Mary and Tim Keegan</p>
+    
+                        </div>
+
+                        <div class="team-member">
+                            <p class="p-heading" style="font-size:2rem; margin-bottom:1rem">Mercury Level</p>
+                            <p class="p-large">Joy Bostian<br>Thomas Baron</p>
+    
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>Few Words About TJREVERB</h4>
+                        <p class="white">As a student-run organization ourself, we are commited to a robust outreach program to inspire the next generation of engineers. We are always looking for funding and connections to help us achieve this goal. Please email us or donate at <a href="https://www.gofundme.com/f/tjreverb"> https://www.gofundme.com/f/tjreverb</a>.</p>
+                    </div> 
+                </div>
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Contact</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="white">Email: tjreverb@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Info</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="https://tjhsst.fcps.edu/">Our school</a>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div> 
+    </div> 
+    
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 TJREVERB</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/morphext.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
