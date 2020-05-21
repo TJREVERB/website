@@ -171,8 +171,22 @@ $page_title = "TJ REVERB - About Us";
 
                     <div class="about-profile col-md-4">
                         <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
+                        <h3>Soham Gandhi</h3>
+                        <h5>APRS</h5>
+                        <p class="font-weight-light">TJ '21</p>
+                    </div>
+
+                    <div class="about-profile col-md-4">
+                        <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
                         <h3>Anup Bagali</h3>
                         <h5>Software</h5>
+                        <p class="font-weight-light">TJ '21</p>
+                    </div>
+
+                    <div class="about-profile col-md-4">
+                        <div class="about-profile-img"><img src="assets/img/about/jason-chen.jpg" class="img-fluid"></div>
+                        <h3>Jason Chen</h3>
+                        <h5>Software (Sub-Leader)</h5>
                         <p class="font-weight-light">TJ '21</p>
                     </div>
 
@@ -188,6 +202,13 @@ $page_title = "TJ REVERB - About Us";
                         <div class="about-profile-img"><img src="assets/img/about/jacob-consalvi.jpg" class="img-fluid"></div>
                         <h3>Jacob Consalvi</h3>
                         <h5>Communciations, Ground Station (Co-Leader)</h5>
+                        <p class="font-weight-light">TJ '21</p>
+                    </div>
+
+                    <div class="about-profile col-md-4">
+                        <div class="about-profile-img"><img src="assets/img/brand/logo.png" class="img-fluid"></div>
+                        <h3>Vasav Nair</h3>
+                        <h5>Iridium</h5>
                         <p class="font-weight-light">TJ '21</p>
                     </div>
 

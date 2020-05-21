@@ -59,7 +59,7 @@
         </div>
         <div class="row">
             <p class="font-weight-light mx-auto">
-                Copyright &copy; TJHSST 2016-2019. All rights reserved.
+                Copyright &copy; TJHSST 2016-2020. All rights reserved.
             </p>
         </div>
         <div class="row text-center">
